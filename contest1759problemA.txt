@@ -1,0 +1,17 @@
+https://codeforces.com/contest/1759/problem/A
+
+#include "bits/stdc++.h"
+#include<iostream>
+using namespace std;
+int main() {
+    int t;
+    cin >> t;
+    while(t--){
+        string patt;
+        cin>>patt;
+        string word = "YesYesYesYesYesYesYesYesYesYesYesYesYesYesYesYesYesYes";
+        if(word.find(patt) != string::npos) cout<<"YES"<<endl;
+        else cout<<"NO"<<endl;
+    } 
+    return 0;
+}
